@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Mediumll";
+   src: url("../../MediumLL-SemiBold.otf")
+}
+
+body {
+    background-color: #d7ccb8;
+    font-family:  "Mediumll";
+    color: white;
+    background-image: url(../../SVG/Element\ 1.svg);
+    background-size: 80%;
+    position: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 9.5vw;
+    background-color:  #daa5b1;
+    font-size: 1.5vw;
+    position: fixed;
+   
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    padding: 1vw 2vw;
+    text-decoration: none;
+    text-align: center;
+  
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #daa5b1;
+    color: white;
+  }
+
+  h1 {
+
+  
+   margin-bottom: 6vw;
+   margin-left: 20vw;
+
+  }
+
+  .text {
+  width: 45vw;
+   margin: 2vw;
+   justify-content: center;
+   margin-left: 20vw;
+   font-size: 1.2vw;
+  }
+
+  .image{
+
+    width: 20vw;
+    margin-left: 4vw;
+    margin-top: 3.2vw;
+  }
+
+  .container {
+
+    display: flex;
+    flex-direction: row;
+  }
+
