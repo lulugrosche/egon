@@ -31,4 +31,20 @@
       </div>
       <div class="image1"> <img src="../egons:w.jpeg" class="image"> </div>
     </div>
+    <script>
+      // Passwortschutz
+      const correctPassword = "EgonRegelt2026"; // Ändere das Passwort hier
+
+      function checkPassword() {
+          let userPassword = prompt("Bitte gib das Passwort ein:");
+          if (userPassword === correctPassword) {
+              document.body.style.display = "block"; // Seite sichtbar machen
+          } else {
+              alert("Falsches Passwort! Zugriff verweigert.");
+              checkPassword(); // Erneute Eingabe erzwingen
+          }
+      }
+
+      window.onload = checkPassword;
+  </script>
    </body>
